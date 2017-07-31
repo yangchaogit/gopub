@@ -9,6 +9,7 @@ import (
 	"io/ioutil"
 	"os"
 	"path"
+	"net"
 )
 
 type ServerConn struct {
@@ -35,6 +36,9 @@ func (s *ServerConn) getSshConnect() (*ssh.Client, error) {
 	}
 	config := ssh.ClientConfig{
 		User: s.user,
+		HostKeyCallback: func(hostname string, remote net.Addr, key ssh.PublicKey) error {
+			return nil
+		},
 	}
 
 	keys := []ssh.Signer{}

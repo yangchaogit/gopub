@@ -10,6 +10,7 @@ import (
 	"os"
 	"path"
 	"net"
+	"github.com/astaxie/beego"
 )
 
 type ServerConn struct {
@@ -166,5 +167,10 @@ func readPrivateKey(path string) (ssh.Signer, error) {
 	if err != nil {
 		return nil, err
 	}
-	return ssh.ParsePrivateKey(b)
+	pass := beego.AppConfig.String("PrivateKeyPass")
+	if pass != "" {
+		return ssh.ParsePrivateKeyWithPassphrase(b, []byte(pass))
+	} else {
+		return ssh.ParsePrivateKey(b)
+	}
 }

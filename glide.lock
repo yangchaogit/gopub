@@ -1,0 +1,48 @@
+hash: 0d70359de152559c9d117deadb5a0fc095b8d00356a79ac06106c2d36aec4303
+updated: 2017-07-31T17:40:08.40049502+08:00
+imports:
+- name: github.com/astaxie/beego
+  version: cab8458c1c4a5a3b4bf5192922be620e6dede15b
+  subpackages:
+  - config
+  - context
+  - context/param
+  - grace
+  - logs
+  - orm
+  - session
+  - toolbox
+  - utils
+  - validation
+- name: github.com/beego/i18n
+  version: e9308947f407a24aaa1e7dbe35a01931e99cb255
+- name: github.com/go-sql-driver/mysql
+  version: a0583e0143b1624142adab07e0e97fe106d99561
+- name: github.com/kr/fs
+  version: 2788f0dbd16903de03cb8186e5c7d97b69ad387b
+- name: github.com/lisijie/gomail
+  version: fbb71ddc63acd07dd0ed49ababdf02c551e2539a
+- name: github.com/lisijie/gopub
+  version: 4cc79260e8e5cc3f20f9b33e30ff0670a842b79b
+  subpackages:
+  - app/controllers
+  - app/entity
+  - app/libs
+  - app/mail
+  - app/service
+- name: github.com/pkg/errors
+  version: c605e284fe17294bda444b34710735b29d1a9d90
+- name: github.com/pkg/sftp
+  version: 22f089b9c4056cf774ebd695b687d469f2ad4650
+- name: github.com/Unknwon/goconfig
+  version: 87a46d97951ee1ea20ed3b24c25646a79e87ba5d
+- name: golang.org/x/crypto
+  version: 558b6879de74bc843225cde5686419267ff707ca
+  subpackages:
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+  - ssh
+- name: gopkg.in/alexcesaro/quotedprintable.v3
+  version: 2caba252f4dc53eaf6b553000885530023f54623
+testImports: []

@@ -1,5 +1,5 @@
-hash: 0d70359de152559c9d117deadb5a0fc095b8d00356a79ac06106c2d36aec4303
-updated: 2017-07-31T17:40:08.40049502+08:00
+hash: 53bad90b1050c572964c4f16f74de20f4616ee46a4efa0949ab52ba12a40833f
+updated: 2017-08-01T11:04:36.338534611+08:00
 imports:
 - name: github.com/astaxie/beego
   version: cab8458c1c4a5a3b4bf5192922be620e6dede15b
@@ -22,14 +22,6 @@ imports:
   version: 2788f0dbd16903de03cb8186e5c7d97b69ad387b
 - name: github.com/lisijie/gomail
   version: fbb71ddc63acd07dd0ed49ababdf02c551e2539a
-- name: github.com/lisijie/gopub
-  version: 4cc79260e8e5cc3f20f9b33e30ff0670a842b79b
-  subpackages:
-  - app/controllers
-  - app/entity
-  - app/libs
-  - app/mail
-  - app/service
 - name: github.com/pkg/errors
   version: c605e284fe17294bda444b34710735b29d1a9d90
 - name: github.com/pkg/sftp

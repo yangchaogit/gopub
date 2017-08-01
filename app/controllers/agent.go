@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/validation"
-	"github.com/lisijie/gopub/app/entity"
-	"github.com/lisijie/gopub/app/libs"
-	"github.com/lisijie/gopub/app/service"
+	"gopub/app/entity"
+	"gopub/app/libs"
+	"gopub/app/service"
 	"strconv"
 )
 

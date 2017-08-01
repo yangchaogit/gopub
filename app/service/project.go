@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/lisijie/gopub/app/entity"
+	"gopub/app/entity"
 	"os"
 )
 

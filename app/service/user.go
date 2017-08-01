@@ -3,8 +3,8 @@ package service
 import (
 	"errors"
 	"github.com/astaxie/beego/utils"
-	"github.com/lisijie/gopub/app/entity"
-	"github.com/lisijie/gopub/app/libs"
+	"gopub/app/entity"
+	"gopub/app/libs"
 )
 
 type userService struct{}

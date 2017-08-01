@@ -2,7 +2,7 @@ package service
 
 import (
 	"fmt"
-	"github.com/lisijie/gopub/app/entity"
+	"gopub/app/entity"
 )
 
 // 系统动态

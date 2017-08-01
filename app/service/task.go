@@ -3,7 +3,7 @@ package service
 import (
 	"fmt"
 	"github.com/astaxie/beego/orm"
-	"github.com/lisijie/gopub/app/entity"
+	"gopub/app/entity"
 	"os"
 	"strconv"
 	"time"

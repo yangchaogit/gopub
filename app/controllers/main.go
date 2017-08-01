@@ -3,7 +3,7 @@ package controllers
 import (
 	"fmt"
 	"github.com/astaxie/beego"
-	"github.com/lisijie/gopub/app/service"
+	"gopub/app/service"
 	"os"
 	"runtime"
 	"time"

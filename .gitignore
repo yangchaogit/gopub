@@ -4,4 +4,3 @@ logs/*.log
 *.tar.gz
 *.bak
 .DS_Store
-vendor/*
